@@ -4,7 +4,7 @@ Um gerador de projetos feito em python onde tem como objetivo facilitar a criaç
 ## Como usar
 Após ter clonado o repositorio e extraido o arquivo abra o terminal e  execute o seguinte comando no diretorio do arquivo.
 
-```$ python gerador.py [projeto] [versao]```
+```$ python gerador.py [projeto] [versão]```
 
 Caso tudo der certo voce tera a seguinte saida no terminal
 
