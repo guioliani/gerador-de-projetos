@@ -18,14 +18,14 @@ Agora voce ja tem um projeto pre configurado gerado na pasta onde o arquivo pyth
 
 
 ## O que eu posso gerar?
-[x] Projetos php
-[x] Frameworks front end
-[x] Bibliotecas javascript
-[ ] Frameworks back end
-[ ] Projetos Aspnet
-[ ] Projetos django
-[ ] Projetos Angular
-[ ] Projetos Mobile
+- [x] Projetos php
+- [x] Frameworks front end
+- [x] Bibliotecas javascript
+- [ ] Frameworks back end
+- [ ] Projetos Aspnet
+- [ ] Projetos django
+- [ ] Projetos Angular
+- [ ] Projetos Mobile
 
 ## Comandos para gerar projetos, frameworks e bibliotecas
 Nome | Comando | Versões
