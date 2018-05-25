@@ -31,6 +31,7 @@ for state in data[argumentos[1]]:
 		dados = state['name'] + "-" + state['version'] + " " + state['link']
 		fullName = state['name'] + "-" + state['version'] + "." + state['extension']
 		link = state['link']
+		extension = state['extension']
 
 if (contem):
 	#print(state['name'], state['version'], state['link'])
@@ -39,7 +40,8 @@ if (contem):
 	r = requests.get(url, allow_redirects=True) 
 	open(fullName, 'wb').write(r.content)
 	print(len(r.content))
-	unzip()
+	if(extension == 'zip'):
+		unzip()
 else:
 	print("nao tem")
 
